@@ -38,4 +38,10 @@ for s in range(0,10): #range(a,b) formatted from a to b-1
 print (ltt)
 """
 #4. Divisors
+num = int(input("Gimme a number:"))
+alist = []
+for x in range(1,num+1):
+    if num % x == 0:
+        alist.append(x)
 
+print (alist)
